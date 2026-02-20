@@ -52,7 +52,7 @@ onInput("w", () => {
   const pl = getFirst(player)
   if (!pl || pl.y !== 9) return
   
-  // 25% chance to clear everything
+  // 5% chance to clear everything
   if (Math.random() < 0.05) {
     jumps = 0
     addText("CLEARED!", {x:4, y:5, color: color`H`})  // red-ishw
